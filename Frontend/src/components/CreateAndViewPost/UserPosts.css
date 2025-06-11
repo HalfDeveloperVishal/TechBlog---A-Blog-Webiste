@@ -1,0 +1,100 @@
+.user-posts-container {
+  padding: 20px;
+  /* max-width: 800px; */
+  margin: auto;
+}
+
+.posts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.post-date {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.read-more-link,
+.edit-button,
+.delete-button {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Individual button styles */
+.read-more-link {
+  background-color: #6c757d;
+}
+
+.read-more-link:hover {
+  background-color: #5a6268;
+}
+
+.edit-button {
+  background-color: #007bff;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #a71d2a;
+}
+
+.not-logged-in, .no-posts {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-post-button {
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.create-post-button:hover {
+  background-color: black;
+}
